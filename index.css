@@ -166,10 +166,10 @@ p{
     scroll-behavior:smooth;
 }
 .child{
-    min-width:300px;
+    min-width:400px;
     height:200px;
     margin:1px 10px;
-    cursor: pointer;
+    cursor:pointer;
     border:1px solid white;
     overflow:hidden;
 }  
