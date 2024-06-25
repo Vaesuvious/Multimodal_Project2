@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="multimodal.css" />
+    <title>Multimodal Project</title>
+  </head>
+  <header>
+    <div class="navbarContainer">
+        <img id="heartImg" src="/images/heart-2658206_640.png" alt="heart">
+      <h4>ARTIFICIAL INTELLIGENCE</h4>
+      <video id="navVid" width="440px" height="201px" autoplay muted loop>
+        <source
+          id="autoplay"
+          src="/videos/ai_bot-moving_small.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </div>
+  </header>
+  <body>
+    <div class="bgContainer"></div>
+    <div class="imgContainer">
+        <img id="surgeonImg" src="/images/Surgeon_Doctor.png" alt="Surgeon Doctor">
+
+    </div>
+
+   <div class="section01">
+      <p id="rhetoricQuestion1">Using AI in surgery?</p>
+      <div class="vid-scroll-div">
+        <!--<div>
+          <button><box-icon name='chevron-left'></box-icon></button>
+        </div>-->
+        <div class="cover">
+          <div class="scroll-videos">
+           <div class="child"><iframe class="child-vid" src="https://www.youtube.com/watch?v=_aJhNXXWmq0"  width="320" height="215" frameborder="0"></iframe></div>
+           <div class="child"><iframe class="child-vid" src="https://www.youtube.com/watch?v=Bcgms_xkpSg"  width="320" height="215" frameborder="0"></iframe></div>
+           <div class="child"><iframe class="child-vid" src="https://www.youtube.com/watch?v=NEgUaGHYxNg"  width="320" height="215" frameborder="0"></iframe></div>
+          </div>
+        </div>
+        <!--<div>
+          <button><i class='bx bx-chevron-right'></i></button>
+        </div>-->
+      </div>
+    </div>
+
+    <div class="section02">
+        <div id="vidFacts">
+          <ul>
+            <li>
+              Surgical instruments have been improved.
+            </li>
+            <li>
+              Robots can accurately mimic the precise movements of a surgeon.
+            </li>
+            <li>
+              AI reduce the errors by using data previously learned and incorporate them 
+              in operations increasing patient safety and lessening surgical accidents.
+            </li>
+            <li>
+              Thanks to AI we can operate on a patient using HD cameras that captures images 
+              within the body cavity, which magnifies and provides information that can’t be 
+              perceived by the human eye.
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="section03">
+        <p id="rhetoricQuestion2">How much has AI Improved surgery?</p>
+        <img id="pieChart" src="/images/pie-chart-2.png" alt="piechart">
+        
+        <div id="aiPercenteges">
+          <ul>
+            <li>Diagnose results are <span id="greenPercentage" style="color:greenyellow">93%</span> accurate</li>
+            <li>Original diagnose method takes about 3 weeks with <span id="redPercentage" style="color:red">8%</span> accuracy</li>
+          </ul>
+        </div>
+        <img id="aiSurgeryImg" src="..\images\ai_surgery_img1.webp" alt="ai_surgery_img">
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </body>
+</html>
